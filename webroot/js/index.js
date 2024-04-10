@@ -1,3 +1,9 @@
 "use strict";
 let test = "here we go again";
-console.log(test);
+function testingFunction(test) {
+    test = 'rename';
+    return 1;
+}
+if (testingFunction('lala') == 1) {
+    console.log(test);
+}

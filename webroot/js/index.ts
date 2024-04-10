@@ -1,4 +1,11 @@
 
 let test: string = "here we go again";
 
-console.log(test);
+function testingFunction(test: string): number {
+    test = 'rename';
+    return 1;
+}
+
+if (testingFunction('lala') == 1) {
+    console.log(test);
+}
